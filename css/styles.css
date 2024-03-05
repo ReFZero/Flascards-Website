@@ -1,0 +1,149 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.container-fluid{
+  padding: 0% 5% 0% 5%;
+}
+
+/* [1] Główny pasek nawigacji */
+.title-background {
+  background-color: #FC7600;
+}
+
+#logo-flashcards{
+ width: 25%;
+ padding: 2% 3%;
+}
+
+#logo-text-flashcards{
+  width: 40%;
+}
+
+.navbar-text{
+  font-size: 30px;
+}
+
+.nav-item{
+  font-size: 1.2vw;
+}
+
+.fiszki-image{
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+/* [2] Wprowadzenie  */
+.introduction-background{
+  padding: 3% 5% 9%;
+  background-color: #A9A9A9;
+}
+
+.introduction-text{
+  padding: 3%;
+  font-size: 2.1rem;
+  color: #070F2B;
+}
+.download-button {
+font-family: 'Ubuntu', sans-serif;
+width: 300px;
+margin-bottom: 2%;
+}
+
+/* [3] Oferta aplikacji  */
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.features-background{
+  padding: 2% 0% 2%;
+  background-color: #FFFFFF;
+}
+
+.features-box{
+  text-align: center;
+}
+.features-icon{
+    color: #070F2B;
+  margin: 25px;
+}
+.features-icon:hover{
+color: #FC7600;
+}
+/* [4] Informacje o aplikacji i obsuga */
+#informations{
+  position: relative;
+  z-index: 1;
+}
+.informations-1{
+  background-color: #FECDA6;
+}
+.informations-2{
+  background-color: #FFFFFF;
+}
+
+.informations-3{
+  background-color: #BBBBBB;
+}
+.informations-4{
+  margin: 2% 0% 2% ;
+  background-color: #FFDD95;
+}
+.informations-image{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+
+  margin: 3% 0%;
+}
+
+.informations-text{
+  font-size: 2rem;
+ 
+  color: #070F2B;
+}
+
+.informations-text3{
+  font-size: 2rem;
+  padding-top: 7%;
+}
+
+.text-middle{
+  text-align: center;
+  padding: 3% ;
+  font-size: 2rem;
+  color: #070F2B;
+}
+.informations-3 .text-middle{
+  color: #000000;
+}
+/* [5]  Stopka strony*/
+
+@media (max-width:1200px) {
+  .container-fluid{
+    padding: 0% 5% 2% 5%;
+  }
+
+  #introduction{
+    text-align: center;
+  }
+  #logo-flashcards, #logo-text-flashcards{
+    width: 35%;
+    margin: auto;
+    display: block;
+  }
+  .fiszki-image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+  .menu-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}

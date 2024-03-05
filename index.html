@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flashcards</title>
+  <link rel="shortcut icon" href="images/logo-flashcards.png">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2465ec86c5.js" crossorigin="anonymous"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- [1] Główny pasek nawigacji -->
+  <section class="title-background" id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <a class="navbar-brand" href="#">
+            <div class="inline-container">
+            <img id="logo-flashcards" src="images/logo-flashcards.png" alt="logo-flashcards"> 
+            <img id="logo-text-flashcards" src="images/logo-text-flashcards.png" alt="logo-text-flashcards">
+        </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-text collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">O Aplikacji</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#informations">Jak zacząć?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- [2] Wprowadzenie -->
+  <section class="introduction-background" id="introduction">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="introduction-text col-lg-6">
+          <p>Znajomość słówek w jezyku obcym to podstawa, więc zacznij uczyć się już dziś!
+            Z aplikacją Fiszki jest to jeszcze prostsze
+          </p>
+          <button type="button" href="#!" class="download-button btn btn-outline-light btn-lg ">
+            <i class="fab fa-google-play"></i> Pobierz</button>
+        </div>
+        <div class="fiszki-image col-lg-6 ">
+          <img src="images/mainImage.png" class="img-fluid" alt="main_menu">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [3] Oferta aplikacji -->
+  <section class="features-background" id="features">
+    <div class="features-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="features-box col-lg-4 ">
+            <i class="features-icon fas fa-mobile-alt fa-4x"></i>
+            <h3 class="features-text">Łatwość w użyciu</h3>
+            <p>Ucz sie gdziekolwiek jesteś, bez konieczności noszenia ze sobą papierowych fiszek</p>
+          </div>
+          <div class="features-box col-lg-4">
+            <i class="features-icon fas fa-language fa-4x"></i>
+            <h3 class="features-text">Wiele języków</h3>
+            <p>Wybieraj spośród wielu jezyków</p>
+          </div>
+          <div class="features-box col-lg-4">
+            <i class="features-icon fas fa-download fa-4x"></i>
+            <h3 class="features-text">Ciągłe aktualizacje</h3>
+            <p>Aktualizacje umożliwiają naukę wciąż nowych słówek</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [4] Informacje o aplikacji i obsuga-->
+  <section class="informations-background" id="informations">
+    <div class="informations-1">
+      <div class="text-middle">
+        <p>Wybierz język i rozpocznij zabawę!</p>
+      </div>
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+          <div class="informations-text col-lg-6">
+            <p>Obecnie aplikacja zwiera 4 języki. <br>
+              Są to:
+              <ul>
+                <li>Angielski</li>
+                <li>Niemiecki</li>
+                <li>Hiszpański</li> 
+                <li>Norweski</li>
+              </ul>
+              Słówka tłumaczone są z języka polskiego na język obcy i na odwrót.
+            </p>
+          </div>
+          <div class="informations-image col-lg-4 menu-image">
+            <img src="images/language-menu.png" class="img-fluid" alt="menu">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="informations-2">
+      <div class="text-middle">
+        <p>Kolejnym etapem jest wybór zestawu słówek</p>
+      </div>
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+          <div class="informations-image col-lg-4 menu-image">
+            <img src="images/menu-set.png" class="img-fluid" alt="menu">
+          </div>
+          <div class="informations-text col-lg-6">
+            <p>Wybierz zestaw który Cie interesuje i rozpocznij naukę. Słówka w zestawach są w losowej kolejności. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="informations-3">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+          <div class="informations-text3 col-lg-6">
+            <p>Interfejs został tak przygotowany, aby nie rozpraszał użytkownika i był wystarczająco przejrzysty.
+            </p>
+          </div>
+          <div class="informations-image col-lg-4">
+            <img src="images/flashcard.png" class="img-fluid" alt="flashcard">
+          </div>
+        </div>
+          <div class="text-middle">
+            <p>Miłej nauki !</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="informations-4">
+      <p class="text-middle"> Pobierz już dzisiaj!</p>
+    </div>
+  </section>
+
+  <!-- [5]  Stopka strony-->
+  <section class="footer-background" id="footer">
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <div class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-2" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-2" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-2" style="background-color: #333333;" href="https://github.com/ReFZero" role="button"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="text-center p-3">
+        <button type="button" href="#!" class="download-button btn btn-outline-light btn-lg ">
+          <i class="fab fa-google-play"></i> Pobierz</button>
+        <p class="footer-text">2024 Rafał ReFZero</p>
+
+      </div>
+    </footer>
+  </section>
+
+</body>
+
+</html>
